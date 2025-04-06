@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    font-family: 'inter';
+    box-sizing: border-box;
+}
+
+#menusuperior{
+    background-color: #303030;
+    display: grid;
+    justify-content:flex-start;
+    color: #FFFFFF;
+    padding: 0px;
+}
+
+#titulo-menusuperior{
+    font-weight:550;
+    font-size: 60px;
+    padding-top: 180px;
+    padding-left: 50px;
+}
+
+#subtitulo-menusuperior{
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 15px;
+    padding-bottom: 140px;
+}
+
+#menuinfo {
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5px;
+    padding: 70px;
+}
+
+.titulo{
+    font-size: 35px;
+}
+
+.descricao{
+    font-size: 20px;
+}
+
+#ilustracao{
+    padding: 70px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px; 
+    margin: 0 auto; 
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.texto{
+    flex: 1.0;
+    min-width: 300px;
+    margin-left: 30px;
+}
+
+#tituloilustracao{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#textoilustracao{
+    font-weight: 300;
+    font-size: 23px;
+}
+  
+.imagem {
+    flex: 0.7;
+    min-width: 100px;
+    margin-right: 30px;
+  }
+
+.imagem img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+#formulario{
+    background-color: #303030;
+    text-align: center; 
+    padding: 40px 10px;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    padding: 40px;
+    color: #FFFFFF;  
+}
+
+input{
+    font-size: 24px;
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+::placeholder{
+    color: #0000004D;
+}
+
+button{
+    font-size: 30px;
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    margin: 60px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #533612;
+    color: white;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #0327353f;
+}
+
+#formulario,
+#formulario input,
+#formulario button,
+#titulo-formulario {
+  font-family: 'Raleway';
+}
